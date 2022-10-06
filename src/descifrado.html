@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap" rel="stylesheet">
+  <title>Cifrado</title>
+</head>
+<body>
+  <div>
+      <h1>Para el descifrado te pediremos dos datos:<br> el ¹desplazamiento (offset) y el ²mensaje a descifrar.<br>Llena los siguientes espacios: </h1>
+      <h2>¹Desplazamiento:</h2>
+      <input type="number" placeholder="offset" name="offsetIngresado" class="offsetIngresado" id="offsetDerecha">
+      <h2>²Mensaje a descifrar:</h2>
+      <textarea placeholder="Coloca aquí tu mensaje" class="textIngresado" name="textIngresado" id="msjDescifrado" cols="50" rows="4"></textarea>
+      <button class="button" id="descifrar">Descifrar mensaje</button>
+      <h1 id="offsetCifrado"></h1>
+      <h1 class="respuesta" id="msjYaDescifrado"></h1>
+  </div> 
+    <script src="decode.js" type="module"></script>
+</body>
+</html>

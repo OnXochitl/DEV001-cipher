@@ -2,13 +2,32 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Cifrado César</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+    <div class="inicio">
+      <form class="entrada">
+        <h1>Hola, bienvenidx a nuestra página de cifrado César.</h1>
+        <h2>Usted podrá escoger entre cifrar o descifrar el mensaje<br>deseado dando click en unos de los siguientes botones:</h2>
+        <button class="button"><a href="cifrado.html">Cifrar</a></button> <button class="button"><a href="descifrado.html">Descifrar</a></button>
+        <h2>Pero... ¿qué es el cifrado César? </h2>
+        <div class="cifradoCesar">
+          <h3>Es un tipo de cifrado por sustitución, es decir que cada letra del texto original es reemplazada por otra que se encuentra un número fijo de posiciones (desplazamiento) más adelante en el mismo alfabeto.
+          </h3>
+          <img class="imagen" src="cifradocesar.png" alt="Cifrado César">
+          <h3>Por ejemplo, si usamos un desplazamiento (offset) de 3 posiciones:</h3>
+          <ul>
+            <li>La letra A se cifra como D.</li>
+            <li>La palabra CASA se cifra como FDVD.</li>
+            <li>Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z</li>
+            <li>Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C</li>
+          </ul>
+        </div>
+      </form>
     </div>
-    <script src="index.js" type="module"></script>
   </body>
 </html>
