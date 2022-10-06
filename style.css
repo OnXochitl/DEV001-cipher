@@ -1,0 +1,77 @@
+body {
+  background-image: url("flowers.jpeg");
+}
+
+.imagen {
+  height: 400px;
+
+}
+
+button {
+  border-radius: 10px;
+  border: 6px solid black;
+  width: 1100px;
+  height: 150px;
+  color: rgba(243, 114, 164, 0.8);
+  font-size: 110px;
+  background-color: rgb(220, 240, 245);
+  margin: 5px 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  box-shadow: 10px 10px 10px 0px rgb(133, 133, 133);
+
+}
+
+.button:hover {
+  background-color: #f268a8;
+  color: white;
+} 
+
+button a {
+  text-decoration: none;
+  color: rgba(81, 201, 253, 0.994);
+  font-size: 90px;
+}
+
+* {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 60px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 90px;
+  color: rgb(247, 99, 123);
+}
+
+.respuesta {
+  font-size: 90px;
+}
+
+.textIngresado::placeholder{
+  font-size: 110px;
+}
+
+.offsetIngresado::placeholder{
+  font-size: 80px
+}
+
+.offsetIngresado {
+  font-size: 80px;
+}
+
+.textIngresado {
+  font-size: 80px;
+}
+
+p {
+  background-color: white;
+  font-size: 100px;
+}
+
+.cifradoCesar {
+  width: 70%;
+  margin: auto;
+
+}

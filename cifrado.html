@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap" rel="stylesheet">
+  <link rel = "icon" href = "cora.png">
+  <link rel = "icon" href = "cora.ico">
+  <title>Cifrado</title>
+</head>
+<body>
+  <div>
+      <h1>Para el cifrado te pediremos dos datos: <br> ¹el desplazamiento (offset) y el ²mensaje a cifrar.<br>Llena los siguientes espacios: </h1>
+      <h2>¹Desplazamiento:</h2>
+      <input type="number" placeholder="offset" min="0" max="10npm start00" name="offsetIngresado" class="offsetIngresado" id="offsetDerecha" required>
+      <h2>²Mensaje a cifrar:</h2>
+      <textarea placeholder="Coloca aquí tu mensaje" class="textIngresado" name="textIngresado" id="msjCifrado" cols="50" rows="5"></textarea>
+      <button class="button" id="cifrar">Cifrar mensaje</button>
+    <h1 class="respuesta" id="offsetCifrado"></h1>
+    <h1 class="respuesta" id="msjYaCifrado"></h1>
+  </div>
+  <script type="module" src="encode.js"></script>
+</body>
+</html>
